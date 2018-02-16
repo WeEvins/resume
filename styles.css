@@ -1,0 +1,21 @@
+p, h1, h2, input, textarea {
+    font-family:'Courier New', Courier, monospace; 
+}
+
+.selfportrait, .portfolio, .nameandlogo, .contactme, {
+    background-color: oldlace;
+    position: relative;
+    height: 10em;
+
+}
+
+header {
+    background-color: oldlace;
+    position: relative;
+}
+
+.aboutme, .pastwork, .footer {
+    background-color: pink;
+    position: relative;
+    Height: 10em;   
+}
