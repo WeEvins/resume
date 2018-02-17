@@ -1,5 +1,8 @@
 p, h1, h2, input, textarea {
-    font-family:'Courier New', Courier, monospace; 
+    /* font-family:'Courier New', Courier, monospace;  */
+    /* font-family:'Courier New', Courier, monospace;  */
+
+    color:#1A1A1A; 
 }
 
 .selfportrait, .portfolio, .nameandlogo, .contactme, {
@@ -12,10 +15,28 @@ p, h1, h2, input, textarea {
 header {
     background-color: oldlace;
     position: relative;
+    size: 1em;
 }
 
 .aboutme, .pastwork, .footer {
     background-color: pink;
     position: relative;
     Height: 10em;   
+}
+
+.floatlinks {
+    position: absolute;
+}
+.plati, .leap {
+    position: absolute;
+
+}
+.image-container {
+    width:100px;
+    
+    
+}
+.image-container img {
+    width:100%;
+    height:auto;    
 }
