@@ -2,47 +2,187 @@ p, h1, h2, input, textarea {
 
     color:#1A1A1A; 
 }
-
-.selfportrait, .portfolio, .nameandlogo, .contactme, {
-    background-color: oldlace;
+body {
+    background-color: #bfc9d1;
+}
+.selfportrait, .portfolio, .nameandlogo, .past-jobs  {
+    background-color: #d7dcdc;
     position: relative;
-    height: 10em;
+    height: 400px;
+    width: 1100px;
+    margin: 0 auto;
 }
 
 header {
-    background-color: oldlace;
+    background-color: #cbd2d5;
     position: relative;
-    size: 1em;
+    height: 75px;
+    width: 1100px;
+    margin: 0 auto;
 }
 
-.aboutme, .pastwork, .footer {
-    background-color: pink;
-    position: relative;
-    Height: 10em;   
+.nameandlogo h2 {
+    border: 3px solid #9d9e99;
+    position: absolute;
+    size: 70px;
+    color: #6c777d;
+    margin-left: 45px;
+    
+    
 }
+
+.floatlinks {
+    position: absolute;
+    right: 0;
+    size: 70px;
+    top: 0;
+    padding-top: 30px;
+    padding-right: 45px;
+   
+}
+
+.aboutme, .job-history, .footer, .contactme, .socialmedia {
+    background-color: #cbd2d5;
+    position: relative;
+    height: 400px;   
+    width: 1100px;
+    margin: 0 auto;
+}
+
+
+
 .selfiephoto {
-    float: left;
     width: 100px;
+    position: absolute;
+    left: 0;
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+
 }
 
-.floatlinks, .pastwork, .training {
+.tagline {
+    position: absolute;
+    padding-left: 320px;
+    padding-top: 225px;
+    font-size: 50px;        
+    
+    
+}
+
+
+.display {
+    margin: 0 auto;
+    width: 60%;
+
+}
+
+.greeting{
+    display: inline-block;
+    text-align: right:
+    
+    
+    
+}
+
+.greeting h1 {
+    font-size: 50px;
+    text-align: right;
+}
+.greeting intro {
+    position: absolute;
+    display: inline-block;
+    text-align: right;
+    
+}
+
+.bio {
     position: relative;
-
-
+    display: inline-block;
+    right: 0;
+    border: 3px solid #989795;
+    width: 350px;
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+    
+   
+    
 }
+
+.porfolio, .past-jobs{
+ position: relative;
+    height: 400px;
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.example1 {
+    position: absolute;
+    width: 350px;
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+    
+}
+
+.example2 {
+    position: absolute;
+    width: 350px;  
+    right: 10px;
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+}
+
+.example3 {
+    position: absolute;
+    width: 350px;  
+    bottom: 0;
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+}
+
+.example4 {
+    position: absolute;
+    width: 350px; 
+    right: 10px;
+    bottom: 0;
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px; 
+}
+
 .work-history{
     position: absolute;
     width: 350px;
 
 }
 .work-history img{
-    widows: 100%;
+    width: 100%;
     height: auto;
+}
+
+.contactme {
+
+    width: 700px;
+    padding-top: 50px;
+    padding-right: 80px;
+    padding-bottom: 50px;
+    padding-left: 80px; 
 }
 
 
 .image-container {
-    width:100px;
+    width:50px;
+
     
 }
 .image-container img {
