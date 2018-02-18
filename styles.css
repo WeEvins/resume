@@ -1,6 +1,4 @@
 p, h1, h2, input, textarea {
-    /* font-family:'Courier New', Courier, monospace;  */
-    /* font-family:'Courier New', Courier, monospace;  */
 
     color:#1A1A1A; 
 }
@@ -9,7 +7,6 @@ p, h1, h2, input, textarea {
     background-color: oldlace;
     position: relative;
     height: 10em;
-
 }
 
 header {
@@ -23,17 +20,29 @@ header {
     position: relative;
     Height: 10em;   
 }
-
-.floatlinks {
-    position: absolute;
+.selfiephoto {
+    float: left;
+    width: 100px;
 }
-.plati, .leap {
-    position: absolute;
+
+.floatlinks, .pastwork, .training {
+    position: relative;
+
 
 }
+.work-history{
+    position: absolute;
+    width: 350px;
+
+}
+.work-history img{
+    widows: 100%;
+    height: auto;
+}
+
+
 .image-container {
     width:100px;
-    
     
 }
 .image-container img {
