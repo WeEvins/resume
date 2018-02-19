@@ -56,9 +56,11 @@ header {
 
 
 .selfiephoto {
-    width: 100px;
+    
     position: absolute;
     left: 0;
+    max-width: 300px;
+    max-height: 400px;
     padding-top: 25px;
     padding-right: 30px;
     padding-bottom: 50px;
@@ -88,6 +90,7 @@ header {
 .display {
     margin: 0 auto;
     width: 60%;
+    padding-left:110px;
 
 }
 
@@ -117,14 +120,15 @@ header {
 .bio {
     position: relative;
     display: inline-block;
+    background-color: #989795;
     right: 0;
-    border: 3px solid #989795;
-    width: 350px;
+    border: 3px solid #6f7075;
+    width: 443px;
     padding-top: 30px;
-    padding-right: 30px;
+    padding-right: 25px;
     padding-left: 30px;
     padding-bottom: 30px;
-    margin-left: 20px;
+    margin-left: 10px;
     margin-top: 45px;
     
     
@@ -319,6 +323,15 @@ hr {
     margin: 0 auto;
     
     
+}
+.Selfie-container {
+    width: 300px;
+    max-width: 300px;
+}
+
+.Selfie-container img {
+    width: 100%;
+    height: auto; 
 }
 
 .image-container {
