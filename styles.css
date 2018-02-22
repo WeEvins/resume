@@ -1,38 +1,43 @@
-p, h1, h2, input, textarea {
+p, input, textarea, h1, h2, a {
 
     color:#1A1A1A;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
    } 
 
+  .tagline h1 {
+       font-family: Georgia, 'Times New Roman', Times, serif;
+       text-decoration: bold;
+       color: #aab9bb;
+   }
 
 body {
-    background-color: #bfc9d1;
+    background-color: #d1c2cf;
 }
 .selfportrait, .portfolio, .nameandlogo, .past-jobs  {
-    background-color: #d7dcdc;
+    background-color: #f7dddf;
     position: relative;
     height: 400px;
-    width: 1100px;
+    width: 1200px;
     margin: 0 auto;
 }
 
 header {
-    background-color: #cbd2d5;
+    background-color: #f1e3e4;
     position: relative;
     height: 75px;
-    width: 1100px;
+    width: 1200px;
     margin: 0 auto;
 }
 
 .nameandlogo h2 {
-    border: 3px solid #9d9e99;
+    border: 3px solid #aab9bb;
     position: absolute;
     size: 70px;
     color: #6c777d;
     margin-left: 45px;
     padding: 10px;
-    
-    
+
 }
 
 .floatlinks {
@@ -45,11 +50,16 @@ header {
    
 }
 
+a:hover {
+    text-decoration: underline #aab9bb;
+    
+}
+
 .aboutme, .job-history, .contactme {
-    background-color: #cbd2d5;
+    background-color: #eeccd4;
     position: relative;
     height: 400px;   
-    width: 1100px;
+    width: 1200px;
     margin: 0 auto;
 }
 
@@ -120,9 +130,9 @@ header {
 .bio {
     position: relative;
     display: inline-block;
-    background-color: #989795;
+    background-color: #a593a3;
     right: 0;
-    border: 3px solid #6f7075;
+    border: 3px solid #aab9bb;
     width: 443px;
     padding-top: 30px;
     padding-right: 25px;
@@ -137,7 +147,7 @@ header {
 .past-jobs{
  position: relative;
     height: 400px;
-    width: 1100px;
+    width: 1200px;
     margin: 0 auto;
 }
 
@@ -193,13 +203,15 @@ h3 {
     bottom: 0;
     padding-top: 50px;
     padding-right: 130px;
-    padding-bottom: 50px;
+    padding-bottom: 30px;
     padding-left: 80px; 
+   
 }
 .finalpam{
     position: relative;
-    padding-left:20px;
+    padding-left:65px;
 }
+
 .work-history{
     position: absolute;
     width: 350px;
@@ -210,10 +222,24 @@ h3 {
     height: auto;
 }
 
+.inner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: red;
+    opacity: 0;
+    transition: opacity 1s ease;
+  }
+
+  .finalpam:hover .inner {
+    opacity: 1;
+  }
 .contactme {
     position: relative;
     Height: 350px;
-    width: 940px;
+    width: 1040px;
     padding-top: 50px;
     padding-right: 80px;
     padding-bottom: 50px;
@@ -249,8 +275,8 @@ input {
     width: 60em;
     margin-bottom: 1em;
     margin-left: 130px;
-    background-color: #bfc9d1;
-    border: 1px solid #9d9e99;
+    background-color: #a593a3;
+    border: 1px solid #aab9bb;
 
 }
 
@@ -269,15 +295,15 @@ textarea {
     width: 60em;
     margin-bottom: 1em;
     margin-left: 130px;
-    background-color: #bfc9d1;
-    border: 1px solid #9d9e99;
+    background-color: #a593a3;
+    border: 1px solid #aab9bb;
 
 }
 
 button {
     position: relative;
     margin-left: 675px;
-    background-color: #6f7075;
+    background-color: #8b898d;
     border: none;
     color: white;
     padding: 15px 32px;
@@ -294,10 +320,10 @@ textarea::placeholder {
 }
 
 footer {
-background-color: #cbd2d5;
+background-color: #bc8a96;
 position: relative;
 height: 100px;   
-width: 1100px;
+width: 1200px;
 margin: 0 auto;
 
 }
@@ -317,9 +343,9 @@ hr {
 
 .socialmedia   {
     position: absolute;
-    background-color: #cbd2d5;
+    background-color: #bc8a96;
     height: 100px;   
-    width: 1100px;
+    width: 1200px;
     margin: 0 auto;
     
     
